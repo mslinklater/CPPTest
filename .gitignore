@@ -4,3 +4,5 @@
 /CPPTest.xcodeproj
 /DerivedData
 /build
+*.o
+/MainCPPTest/build

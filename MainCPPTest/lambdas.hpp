@@ -11,5 +11,6 @@
 
 namespace Lambdas
 {
-void basics();
+void cpp98();
+void cpp11();
 };

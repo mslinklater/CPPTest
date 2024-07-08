@@ -14,14 +14,6 @@
 
 #include "utils.hpp"
 
-void LaunchSection(const std::string& section)
-{    
-}
-
-void PromptForSection()
-{
-}
-
 std::string CPPVersionToString(int version)
 {
     switch(version)
@@ -42,12 +34,12 @@ std::string CPPVersionToString(int version)
 }
 
 int main(int argc, const char * argv[]) {
-//    std::cout << "=== Welcome to CPPTest ===\n";
     Utils::Title("Welcome to CPPTest");
     std::cout << "C++ release used to compile:" << CPPVersionToString(__cplusplus) << std::endl;
     std::cout << "\n";
     
-    Lambdas::basics();
+    Lambdas::cpp98();
+    Lambdas::cpp11();
 //    SmartPointer::unique_ptr();
 //    SmartPointer::weak_ptr();
     
